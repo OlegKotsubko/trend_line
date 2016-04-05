@@ -1,0 +1,138 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1800px) {
+
+    
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .owl-carousel span a {
+        font-size: 1.2em;
+}
+    .goods {
+    margin: 4% 0;
+    font-size: 0.7em;
+}
+    .basket {
+        font-size: 1em;
+    }
+    .social span {
+        display: none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .social {
+        display: none;
+    }
+    .goods {
+    margin: 4% 0;
+    font-size: 0.7em;
+    }
+    .sprite-mobile-basket{
+        display: block;
+    }
+    .news h4{
+        text-align: center !important;
+        margin: 1%;
+    }
+    .news span {
+        text-align: center !important;
+        font-size: 1em;
+        margin: 1%;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #five .wrapper-tex span, .wrapper-tex p{
+        display: none;
+    }
+    .wrapper-tex a {
+        color: #fff;
+        display: block;
+        background: #a8c94b;
+        width: 160px;
+        height: 35px;
+        border-radius: 20px;
+        padding: 9px;
+        margin-top: 173px;
+        margin: 0 auto;
+    }
+    .wrapper-social {
+        background: none;
+    }
+    .footer-nav ul li:first-child, .footer-nav ul li:nth-child(2),  .footer-nav ul li:nth-child(5), .footer-nav ul li:nth-child(6) {
+        border: 1px solid #c0b199;
+        padding: 3%;
+        border-radius: 20px;
+        width: 42%;
+        margin: 0 4%;
+        text-align: center;
+    }
+    .footer-nav ul li a {
+        color: #c0b199;
+       
+    }
+    .footer-nav ul li:nth-child(4) form button:first-child{
+        border: 1px dotted #7b91c8;
+        color: #7b91c8;
+        padding: 3%;
+        width: 42%;
+        margin:4% 3.5%;
+       
+    }
+    .footer-nav ul li:nth-child(4) form button:last-child {
+        border: 1px dotted #a8c94b;
+        padding: 3%;
+        width: 42%;
+        margin: 4% 4%;
+        
+    }
+    .footer-search button {
+        background-color: #a8c94b;
+        color: #fff;
+        border: none;
+        width: 100%;
+    }
+    #five .wrapper-bord {
+        background: url(../img/child.jpg) no-repeat 50% 20%;
+        background-size: 65%;
+    }
+    .wrapper-tex {
+        padding-left: 0%;
+        text-align: center;
+        margin: 51% 0 0;
+    }
+    #four p {
+        font-size: .9em;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .ourBooks {
+        font-size: 11px;
+    }
+    #one {
+        display: none;
+    }
+    .logo {
+        background: url(../img/mobLogoBG.png) no-repeat;
+    }
+    .sprite-trendLogo {
+    right: 18%;
+    position: initial;
+    float: right;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #one .wrapCarusel div {
+    width: 1200px;
+    margin: 0 auto;
+    }
+}
